@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body {
+            background-color: grey;
+            padding: 10px;
+            width: 1500px;
+        }
+        
+        .logo {
+            background-color: black;
+            color: mediumturquoise;
+            font-size: 20px;
+            padding: 20px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .row {
+            width: 100%;
+            height: 520px;
+            margin-bottom: 20px;
+        }
+        
+        .column1 {
+            margin-top: 20px;
+            width: 25%;
+            height: 500px;
+            background-color: red;
+            margin-right: 20px;
+            float: left;
+        }
+        
+        .nav {
+            overflow: hidden;
+            padding: 10px;
+            float: left;
+        }
+        
+        .nav a {
+            display: block;
+            color: deepskyblue;
+            padding: 10px 12px;
+            text-decoration: none;
+        }
+        
+        .nav a:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        .column2 {
+            margin-top: 20px;
+            float: right;
+            width: 1105px;
+            height: 240px;
+            background-color: greenyellow;
+            text-align: center;
+        }
+        
+        .footer {
+            background-color: khaki;
+            color: black;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <h1>LOGO</h1>
+    </div>
+    <div class="row">
+        <div class="column1">
+            <h1>MENU</h1>
+            <div class="nav">
+                <a>HOME</a>
+                <a>DASHBOARD</a>
+                <a>ABOUT</a>
+                <a>CONTACT</a>
+            </div>
+        </div>
+        <div class="column2">
+            <h1>HEADER/BANNER</h1>
+        </div>
+        <div class="column2">
+            <h1>BODY/AREA</h1>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>FOOTER</h1>
+    </div>
+</body>
+
+</html>

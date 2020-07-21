@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body {
+            background-color: grey;
+        }
+        
+        .logo {
+            color: mediumturquoise;
+            font-size: 20px;
+            float: left;
+        }
+        
+        .row1 {
+            background-color: black;
+            height: auto;
+        }
+        
+        .row1:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .nav {
+            overflow: hidden;
+            padding: 10px;
+            float: right;
+        }
+        
+        .nav a {
+            float: right;
+            display: block;
+            color: deepskyblue;
+            padding: 10px 12px;
+            text-decoration: none;
+        }
+        
+        .nav a:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        .header {
+            margin-top: 20px;
+            background-color: chartreuse;
+            text-align: center;
+            padding: 15px;
+        }
+        
+        .intro {
+            margin-top: 20px;
+            background-color: grey;
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+        
+        .row2:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .column1 {
+            width: 491.06px;
+            background-color: blue;
+            text-align: center;
+            margin-top: 10px;
+            float: left;
+        }
+        
+        .column2 {
+            float: left;
+            width: 491.06px;
+            background-color: red;
+            text-align: center;
+            margin: 10px 15px 0px 15px;
+        }
+        
+        .footer {
+            background-color: khaki;
+            color: black;
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row1">
+        <div class="logo">
+            <h1>LOGO</h1>
+        </div>
+        <div class="nav">
+            <a>CONTACT</a>
+            <a>ABOUT</a>
+            <a>DASHBOARD</a>
+            <a>HOME</a>
+        </div>
+    </div>
+    <div class="header">
+        <h1>HEADER</h1>
+    </div>
+    <div class="intro">
+        <p>INTRO TEXT</p>
+    </div>
+    <div class="row2">
+        <div class="column1">
+            <h1>BOX 1</h1>
+        </div>
+        <div class="column2">
+            <h1>BOX 2</h1>
+        </div>
+        <div class="column1">
+            <h1>BOX 3</h1>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>FOOTER</h1>
+    </div>
+</body>
+
+</html>
